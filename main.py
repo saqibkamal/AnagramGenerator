@@ -36,9 +36,14 @@ def search_anagram_list(anagrams):
 	return result
 
 
+@app.route("/") 
+def home_view(): 
+        return "<h1>Welcome to Geeks for Geeks</h1>"
+
 app = Flask(__name__)
 @app.route("/process",methods=['POST'])
 def process():
+
 
 	start = timeit.default_timer()
 	print("Request Recieved on Server")
