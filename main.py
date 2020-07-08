@@ -87,4 +87,5 @@ if __name__ == '__main__':
     #print(stop - start)
 
 
-    app.run(host='0.0.0.0',port=233,debug=True)
+    #app.run(host='0.0.0.0',port=233,debug=True)
+    app.run()
